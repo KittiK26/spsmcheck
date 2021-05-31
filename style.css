@@ -1,0 +1,119 @@
+body
+{
+    background-color: whitesmoke;
+}
+.header
+{
+    background-color: paleturquoise;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.logo h1
+{
+    float: left;
+    text-align: left;
+}
+.welcome
+{
+    text-align: center;
+}
+.data
+{
+    display: block;
+    margin: auto;
+    float: center;
+}
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+button
+{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 300px;
+    background-color: paleturquoise;
+    color: white;
+    border-radius: 8px;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: paleturquoise;
+    border-radius: 0px 0px 12px 12px;
+}
+li a
+{
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active)
+{
+    background-color: white;
+    border-radius: 12px;
+    transform: scale(1.2,1.2);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+li a:hover
+{
+    background-color: palegoldenrod;
+    border-radius: 12px;
+    transform: scale(1.2,1.2);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.active
+{
+    background-color: palegoldenrod;
+    font-weight: bold;
+    border-radius: 12px;
+}
+form
+{
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 12px 12px 12px 12px;
+}
+.input-group
+{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label
+{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input
+{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn
+{
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    background: paleturquoise;
+    border: none;
+    border-radius: 8px;
+}
